@@ -1,18 +1,10 @@
 package com.simplemobiletools.commons.activities
 
-import android.content.ActivityNotFoundException
 import android.content.Intent
-import android.content.Intent.*
-import android.os.Build
 import android.os.Bundle
-import android.os.Handler
-import androidx.core.net.toUri
 import com.simplemobiletools.commons.R
-import com.simplemobiletools.commons.dialogs.ConfirmationAdvancedDialog
-import com.simplemobiletools.commons.dialogs.RateStarsDialog
 import com.simplemobiletools.commons.extensions.*
 import com.simplemobiletools.commons.helpers.*
-import com.simplemobiletools.commons.models.FAQItem
 import kotlinx.android.synthetic.main.activity_about.*
 
 class AboutActivity : BaseSimpleActivity() {

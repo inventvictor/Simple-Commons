@@ -22,10 +22,6 @@ class MainActivity : BaseSimpleActivity() {
         setContentView(R.layout.activity_main)
         appLaunched(BuildConfig.APPLICATION_ID)
 
-        main_color_customization.setOnClickListener {
-            startCustomizationActivity()
-        }
-
         //startCustomizationActivity()
         //startAboutActivity(R.string.smtco_app_name, 3, "0.2", arrayListOf(FAQItem(R.string.faq_1_title_commons, R.string.faq_1_text_commons)), false)
 
